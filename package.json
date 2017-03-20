@@ -1,0 +1,32 @@
+{
+  "name": "betazeta",
+  "version": "0.1.0",
+  "description": "betazeta API (belelú, bólido, fayerwayer, niubie, sabrosía, wayerless, ferplei, saborizante, veoverde)",
+  "license": "MIT",
+  "repository": "jlobos/betazeta",
+  "author": "Jesús Lobos <jlobitu@gmail.com>",
+  "main": "index.js",
+  "keywords": [
+    "betazeta",
+    "belelu",
+    "bolido",
+    "fayerwayer",
+    "niubie",
+    "sabrosia",
+    "wayerless",
+    "ferplei",
+    "saborzante",
+    "veoverde"
+  ],
+  "scripts": {
+    "test": "standard && ava"
+  },
+  "dependencies": {
+    "node-fetch": "^1.6.3",
+    "qs": "^6.4.0"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "standard": "^9.0.2"
+  }
+}
