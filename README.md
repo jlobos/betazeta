@@ -27,6 +27,7 @@ Obtener un listado de artículos.
 #### Parámetros soportados
 
 - `content` - `boolean` mostrar el contenido de los artículos, por defecto `true`
+- `crossContent` - `boolean` combinar articulos, por defecto `true`
 - `endDate` - `string` obtener artículos a partir de una fecha final
 - `full` - `boolean`
 - `localization` - `string ` artículos de acuerdo a un país específico
@@ -45,7 +46,11 @@ Obtener un listado de artículos.
 const startDate = new Date()
 startDate.setDate(startDate.getDate() - 7)
 
-betazeta.articles({ startDate, order_by: 'social_weight' }).then(res => {
+betazeta.articles({
+  crossContent: false,
+  order_by: 'social_weight',
+  startDate
+}).then(res => {
   console.log(res)
 })
 ```
