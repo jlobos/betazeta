@@ -10,7 +10,7 @@ Simple librería para casi todo el contenido de [Betazeta](https://www.betazeta.
 ## Instalación
 
 ```sh
-$ npm --save betazeta
+$ npm install --save betazeta
 ```
 
 ## Uso
