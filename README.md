@@ -1,6 +1,11 @@
 # betazeta API para Node.js (no oficial)
 
-Simple librería para casi todo el contenido de Betazeta (Belelú, Bólido, Fayerwayer, Niubie, Sabrosía, Wayerless, Betazeta, Ferplei, Saborizante, Veoverde).
+[![Build Status](https://travis-ci.org/jlobos/betazeta.svg?branch=master)](https://travis-ci.org/jlobos/betazeta)
+[![Build status](https://ci.appveyor.com/api/projects/status/3ap1yhyelal1y332?svg=true)](https://ci.appveyor.com/project/jlobos/betazeta)
+[![bitHound Dependencies](https://www.bithound.io/github/jlobos/betazeta/badges/dependencies.svg)](https://www.bithound.io/github/jlobos/betazeta/94a330313a9944243e4708321c92c54b7ce2751e/dependencies/npm)
+[![bitHound Code](https://www.bithound.io/github/jlobos/betazeta/badges/code.svg)](https://www.bithound.io/github/jlobos/betazeta)
+
+Simple librería para casi todo el contenido de [Betazeta](https://www.betazeta.com/) (Belelú, Bólido, Fayerwayer, Niubie, Sabrosía, Wayerless, Betazeta, Ferplei, Saborizante, Veoverde).
 
 ## Instalación
 
