@@ -10,7 +10,7 @@ $ npm --save betazeta
 
 ## Uso
 
-```
+```js
 const betazeta = require('betazeta')
 
 betazeta.articles({ site: 'fayerwayer' }).then(articles => {
@@ -116,8 +116,10 @@ Buscar artículos
 - Buscar sobre Game of Thrones en Fayerwayer
 
 ```js
-betazeta.search({ q: 'game of thrones', site: 'fayerwayer' })
-.then(res => {
+betazeta.search({
+  q: 'game of thrones',
+  site: 'fayerwayer'
+}).then(res => {
   console.log(res)
 })
 ```
@@ -135,7 +137,9 @@ Obtener datos de un tag
 - Tag de Game of Thrones en Fayerwayer
 
 ```js
-betazeta.tag({ name: 'game-of-thrones' })
+betazeta.tag({ name: 'game-of-thrones' }).then(res => {
+  console.log(res)
+})
 ```
 
 ## Licencia
