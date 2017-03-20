@@ -43,6 +43,6 @@ module.exports = {
   articleNext: ({ site, name }) => r('GET', `data/site/${site}/${name}/next`),
   articlePrev: ({ site, name }) => r('GET', `data/site/${site}/${name}/prev`),
   articles: params => r('GET', 'content', params),
-  search: ({ site, q }) => r('GET', `data/site/${site}/search`, { q }),
+  search: ({ site = 'betazeta', q }) => r('GET', `data/site/${site}/search`, { q }),
   tag: ({ name }) => r('GET', `agroupations/tag/${name}`)
 }
